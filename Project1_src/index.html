@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Photographer Portfolio</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  
+  
+ <header>
+   <nav>
+     <ul>
+       <li><a href="#hero">Home</a></li>
+       <li><a href="#about">About</a></li>
+       <li><a href="#gaillry">Gallery</a></li>
+       <li><a href="#services">Services</a></li>
+       <li><a href="#contact">Contact</a></li>
+     </ul>
+   </nav>
+ </header>
+
+
+
+ <main id="hero">
+  <section class="hero">
+     <div class="hero-text">
+       <h1>Welcome to My Photography Portfolio</h1>
+       <p>Explore the world through my lens and experience the beauty of captivating moments.</p>
+     </div>
+     <div class="hero-video">
+       <video autoplay muted loop>
+         <source src="hero-video.mp4" type="video/mp4">
+       </video>
+     </div>
+   </section>
+ </main>
+
+<main id="gaillry">
+<section class="featured-gallery">
+     <h2>Featured Gallery</h2>
+     <div class="gallery-container">
+       <div class="gallery-item">
+         <img src="gallery-image-1.jpeg" alt="Gallery Image 1">
+       </div>
+       <div class="gallery-item">
+         <img src="gallery-image-1.jpeg" alt="Gallery Image 2">
+       </div>
+       <div class="gallery-item">
+         <img src="gallery-image-1.jpeg" alt="Gallery Image 3">
+       </div>
+        <div class="gallery-item">
+          <img src="gallery-image-1.jpeg" alt="Gallery Image 3">
+        </div>
+         <div class="gallery-item">
+           <img src="gallery-image-1.jpeg" alt="Gallery Image 3">
+         </div>
+       <!-- Add more gallery items here -->
+     </div>
+   </section>
+ </main>
+
+
+<main id="about">
+  <section class="about-section">
+    <div class="about-text">
+      <h1>About Me</h1>
+      <p>Hello, I'm John Doe, a passionate photographer based in New York City. With over 10 years of experience, I specialize in capturing stunning portraits, landscapes, and candid moments that tell a story.</p>
+      <p>My journey into photography began as a hobby, but it quickly evolved into a lifelong pursuit. I strive to find beauty in the ordinary and to create images that evoke emotions and convey the essence of my subjects.</p>
+      <p>Whether I'm working on a personal project or collaborating with clients, my approach is always focused on delivering high-quality, visually striking images that exceed expectations.</p>
+    </div>
+    <div class="about-image">
+      <img src="photographer.jpg" alt="Photographer John Doe">
+    </div>
+  </section>
+
+<!--  <section class="contact-section">
+    <h2>Get in Touch</h2>
+    <form action="submit-form.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section> -->
+</main>
+
+<!--
+<main id="portfolio">
+  <section class="portfolio-section">
+    <h1>My Portfolio</h1>
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="portraits">Portraits</button>
+      <button class="filter-btn" data-filter="landscapes">Landscapes</button>
+      <button class="filter-btn" data-filter="events">Events</button>
+    </div>
+    <div class="gallery">
+      <div class="gallery-item portraits">
+        <img src="gallery-image-1.jpeg" alt="Portrait 1">
+      </div>
+      <div class="gallery-item landscapes">
+        <img src="gallery-image-1.jpeg" alt="Landscape 1">
+      </div>
+      <div class="gallery-item events">
+        <img src="event-1.jpeg" alt="Event 1">
+      </div>
+      
+      <!-- Add more gallery items here 
+    </div>
+  </section>
+</main>
+-->
+
+<main id="services">
+  <section class="services-section">
+    <h1>Our Services</h1>
+    <div class="service-cards">
+      <div class="service-card">
+        <img src="wedding.jpg" alt="Wedding Photography">
+        <h3>Wedding Photography</h3>
+        <p>Capture the beauty and emotion of your special day with our professional wedding photography services.</p>
+        <p>Starting from $2,500</p>
+      </div>
+      <div class="service-card">
+        <img src="portrait.jpg" alt="Portrait Photography">
+        <h3>Portrait Photography</h3>
+        <p>Let us create stunning portraits that highlight your unique personality and style.</p>
+        <p>Starting from $250</p>
+      </div>
+      <div class="service-card">
+        <img src="event.jpg" alt="Event Photography">
+        <h3>Event Photography</h3>
+        <p>Our experienced event photographers will capture every memorable moment of your corporate or private event.</p>
+        <p>Starting from $1,000</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials-section">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial">
+      <blockquote>
+        "John is an amazing photographer! He captured our wedding day so beautifully, and we can't thank him enough for the incredible memories he provided us."
+      </blockquote>
+      <cite>- Sarah & Michael</cite>
+    </div>
+    <div class="testimonial">
+      <blockquote>
+        "The portraits John took of our family are simply stunning. He has a real talent for capturing the essence of his subjects."
+      </blockquote>
+      <cite>- The Wilsons</cite>
+    </div>
+  </section>
+</main>
+
+
+<main id="contact">
+  <section class="contact-section">
+    <h1>Get in Touch</h1>
+    <div class="contact-container">
+      <div class="contact-form">
+        <h2>Contact Form</h2>
+        <form action="submit-form.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+      <div class="contact-info">
+        <h2>Contact Information</h2>
+        <p><i class="fas fa-map-marker-alt"></i> 123 Main Street, City, State</p>
+        <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+        <p><i class="fas fa-envelope"></i> info@photographerportfolio.com</p>
+        <div class="social-media">
+          <h3>Follow Me</h3>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-left">
+      <p>&copy; 2023 Photographer Portfolio. All rights reserved.</p>
+      <nav>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-right">
+      <h3>Quick Links</h3>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+
+
+ <script src="script.js"></script>
+</body>
+</html>
